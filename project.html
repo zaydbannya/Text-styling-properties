@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text shadow, Box-shadow and Text indent</title>
+    <style>
+        * {
+            text-align: center;
+            font-family: monospace;
+        }
+        #text {
+            text-shadow: 2px 2px 1px #CC5500;
+        }
+        #box {
+            width: 300px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 9px 9px 5px #301934;
+        }
+        #indent {
+            text-align: left;
+            text-indent: 2em; /* Try 16px, 2em, or -3em */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="text">We can use text shadow</h1>
+    <div id="box">This box has a box-shadow applied.</div>
+    <p id="indent">This paragraph demonstrates the use of text-indent. 
+    The first line of this paragraph starts with an indentation.</p>
+</body>
+</html>
